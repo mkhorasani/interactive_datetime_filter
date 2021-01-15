@@ -36,7 +36,7 @@ def df_filter(message,df):
 
 if __name__ == '__main__':
 
-    df = pd.read_csv('C:/Users/Mohammad Khorasani/Desktop/data.csv')
+    df = pd.read_csv('file_path')
 
     st.title('Datetime Filter')
     filtered_df = df_filter('Move sliders to filter dataframe',df)
